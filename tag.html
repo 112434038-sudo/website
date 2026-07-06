@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color:#f2f2f2;
+        }
+
+        .container{
+            width:350px;
+            margin:50px auto;
+            border:2px solid black;
+            padding:20px;
+            background:white;
+        }
+
+        h2{
+            text-align:center;
+        }
+
+        input, textarea, select{
+            width:100%;
+            padding:5px;
+            margin-top:5px;
+            margin-bottom:10px;
+        }
+
+        .radio,.check{
+            width:auto;
+        }
+
+        .btn{
+            width:100px;
+            padding:8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Form</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text">
+
+<label>Password</label>
+<input type="password">
+
+<label>Address</label>
+<textarea rows="4"></textarea>
+
+<label>Department (Combo Box)</label>
+<select>
+    <option>MCA</option>
+    <option>BCA</option>
+    <option>B.Sc</option>
+    <option>B.Com</option>
+</select>
+
+<label>Subjects (List Box)</label>
+<select size="3">
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>JavaScript</option>
+    <option>Python</option>
+</select>
+
+<br><br>
+
+<label>Gender</label><br>
+<input type="radio" name="gender" class="radio"> Male
+<input type="radio" name="gender" class="radio"> Female
+
+<br><br>
+
+<label>Hobbies</label><br>
+<input type="checkbox" class="check"> Reading
+<input type="checkbox" class="check"> Music
+<input type="checkbox" class="check"> Sports
+
+<br><br>
+
+<label>Upload Photo</label>
+<input type="file">
+
+<center>
+<input type="submit" value="Submit" class="btn">
+<input type="reset" value="Reset" class="btn">
+</center>
+
+</form>
+
+</div>
+
+</body>
+</html>

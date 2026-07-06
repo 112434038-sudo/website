@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Club Registration Form</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f2f2f2;
+        }
+
+        .container{
+            width:650px;
+            margin:30px auto;
+            background:white;
+            border:2px solid black;
+            padding:20px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        h1{
+            text-align:center;
+            color:#003366;
+        }
+
+        table{
+            width:100%;
+        }
+
+        td{
+            padding:8px;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        select,
+        textarea{
+            width:100%;
+            padding:8px;
+        }
+
+        .btn{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        input[type=submit],
+        input[type=reset]{
+            padding:10px 25px;
+            font-size:16px;
+            margin:5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2 style="background:#dbe9f6;padding:10px;">
+   Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya
+</h2>
+
+<h1>College Club Registration Form</h1>
+
+<form>
+
+<table>
+
+<tr>
+<td>Student Name</td>
+<td><input type="text" placeholder="Enter your Full Name"></td>
+</tr>
+
+<tr>
+<td>Register Number</td>
+<td><input type="text" placeholder="Enter Register Number"></td>
+</tr>
+
+<tr>
+<td>Email ID</td>
+<td><input type="email" placeholder="Enter College Email"></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" placeholder="Create Password"></td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td>
+<select>
+<option>Select Department</option>
+<option>BCA</option>
+<option>MCA</option>
+<option>B.Sc CS</option>
+<option>B.Com</option>
+<option>MBA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Year of Study</td>
+<td>
+<input type="radio" name="year"> I Year
+<input type="radio" name="year"> II Year
+<input type="radio" name="year"> III Year
+<input type="radio" name="year"> IV Year
+</td>
+</tr>
+
+<tr>
+<td>Interested Club</td>
+<td>
+<input type="checkbox"> Coding Club<br>
+<input type="checkbox"> Robotics Club<br>
+<input type="checkbox"> Environmental Club<br>
+<input type="checkbox"> Art Club<br>
+<input type="checkbox"> Cultural Club<br>
+<input type="checkbox"> Music Club
+</td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td>
+<textarea rows="4" placeholder="Enter Address"></textarea>
+</td>
+</tr>
+
+<tr>
+<td>Phone Number</td>
+<td><input type="text" placeholder="Enter Phone Number"></td>
+</tr>
+
+</table>
+
+<div class="btn">
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
